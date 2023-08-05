@@ -1,0 +1,170 @@
+/* Importamos los font que se usarán */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+/*Nav*/
+
+.navbar{
+    padding: 1rem;
+    font-weight: 400;
+    /* background-color: #f5f6f7; */
+    font-size: 20px;
+    background-color: #0C0812;
+    min-height: 100px;
+    box-shadow: 2px 2px 2px 2px rgba(204, 0, 255,0.3);
+    
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-nav li a{
+  color: #ffffff;
+}
+
+.navbar-collapse a{
+  color: #ffffff;
+  text-decoration: none;
+} 
+
+.navbar-nav li a:hover{
+  color: rgb(204, 0, 255);
+}
+
+/*Iconos de redes sociales*/
+.redes a{
+  color: #ffffff;
+  display:inline-block;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/*--------Footer-------*/
+
+/* footer{
+    font-size: 20px;
+    display: flex;
+    background-color: #0C0812;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    color:#ffffff;
+} */
+.footer{
+  font-size: 20px;
+    display: flex;
+    background-color: #0C0812;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    color:#ffffff;
+}
+
+.footer a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer li{
+  list-style:none;
+  font-size: 18px;
+}
+/*--------Responsividad--------*/
+/*Navbar para celular*/
+
+@media screen and (min-width:220px) and (max-width:767px){
+  .navbar-collapse{
+    text-align: center;
+  }
+  .navbar{
+    font-size: 20px;
+  }
+  .redes a{
+    font-size: 45px;
+  }
+  .footer .redes a{
+    font-size: 22px;
+  }
+  footer{
+    height: 100px;
+  }
+  .footer{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+  }
+  .footer li{
+    font-size: 10px;
+  }
+}
+
+/*Navbar para tablet*/
+@media screen and (min-width:768px) and (max-width:992px){
+  
+  .navbar{
+    font-size: 15px;
+  }
+  .redes a{
+    font-size: 25px;
+  }
+  .footer .redes a{
+    font-size: 25px;
+  }
+  footer{
+    height: 100px;
+  }
+  .footer{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    height: 100px;
+  }
+  .footer li{
+    font-size: 12px;
+  }
+}
+
+
+/*Navbar para escritorio*/
+@media screen and (min-width:1440px){
+  
+  .navbar{
+    font-size: 25px;
+    height: 130px;
+  }
+  .redes a{
+    font-size: 35px;
+  }
+
+  .footer .redes a{
+    font-size: 30px;
+  }
+  footer{
+    height: 100px;
+  }
+  .footer{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    height: 100px;
+  }
+  .footer li{
+    font-size: 12px;
+  }
+}
+

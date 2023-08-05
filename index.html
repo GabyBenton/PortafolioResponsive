@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaby Benton | Desarrolladora Web</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./src/img/ic.png">
+    <!--Link de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Link de Iconos-Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Link de Iconos Font-->
+    <!--Link de CSS-->
+    <link rel="stylesheet" href="./src/css/Nav.css">
+    <link rel="stylesheet" href="./src/css/inicio.css">
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+        <!--NavBar-->     
+    </header>
+    <!--Pagina inicio, background-->
+    <section class="inicio align-items-stretch">
+        <div class="content-inicio">
+            <div class="cols">
+                <span class="code">&lt;!--BIENVENIDOS--&gt;</span>
+                <h1>I'm <span class="multiText">Gaby Benton</span></h1>
+                <p>Desarrolladora Java Full Stack Jr.</p>
+                <!--aqui ira un boton para ir al portafolio-->
+                <div class="btns btnPortafolio">
+                    <button>Portafolio...</button>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!--Pagina inicio, seccion 2-->
+      <section class="hello">
+          <div class="info">
+            <div class="div-izq">
+              <span class="code">&lt;!--Hello--&gt;</span>
+              <h1>I'm <span class="multiText1">Developer</span></h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus at amet molestiae perferendis labore facilis laborum magnam, quasi voluptate explicabo facere fugiat rem odit vitae eveniet tempora quia nemo voluptatum.</p>
+            </div>
+            <div class="contenedor-img">
+              <img class="imgperfil img-fluid"src="./src/img/perfil.png" alt="perfil">
+            </div>
+          </div>
+      </section>
+    
+    <!--Footer-->
+    <footer>
+
+    </footer>
+
+    <!--Script NavBar-->
+    <script src="./src/js/nav.js"></script>
+    <!--Script Libreria animacion-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText",{
+        strings:["Programmer ","Developer","Engineer","CSS","JavaScript","Java","C#","C++","HTML","Women"],
+        loop: true, //repetir el array de string
+        typeSpeed : 100,   //Velocidad en milisegundos para poner una letra
+        backSpeed : 120,  //Velocidad en milisegundos para borrar una palabra
+        backDelay : 2000, //tiempo de espera despues de que termina de escribir una palabra
+        starDelay: 300  //tiempo de retraso en iniciar la animacion
+      });
+      var typingEffect1 = new Typed(".multiText1",{
+        strings:["Ingeniera","Estudiante","Creatividad","Diseñadora","Desarrolladora","Innovación","Persistencia"],
+        loop: true, //repetir el array de string
+        typeSpeed : 100,   //Velocidad en milisegundos para poner una letra
+        backSpeed : 120,  //Velocidad en milisegundos para borrar una palabra
+        backDelay : 2000, //tiempo de espera despues de que termina de escribir una palabra
+        starDelay: 300  //tiempo de retraso en iniciar la animacion
+      });
+    </script>
+    
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
